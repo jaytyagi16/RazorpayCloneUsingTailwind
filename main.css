@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card svg{
+    transition: all linear 200ms;
+}
+
+.card:hover svg{
+    filter: drop-shadow(2px 2px 8px rgb(0 0 0 / 10));
+}
+
+.card-img{
+    transition: all linear 200ms;
+}
+
+.card:hover .card-img{
+    background-color: #5190eef5;
+}
+
+.featureCard2 svg{
+    transition: all linear 200ms;
+}
+
+.featureCard2:hover svg{
+    filter: drop-shadow(2px 2px 8px rgb(0 0 0 /10));
+}
+
+.featureCardIcon{
+    transition: all linear 200ms;
+}
+
+.featureCard2:hover .featureCardIcon{
+    background-color: #4e4bd9f5;
+}
+
+.new-feature-card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.core-feature-bg{
+    background-size: 100% 100%;
+}
+
+.moveImage{
+    animation: 10s infinite linear roller;
+}
+
+@keyframes roller{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: -50%;
+    }
+}
+
+.CTA-image{
+    background-size: 100% 100%;
+}
